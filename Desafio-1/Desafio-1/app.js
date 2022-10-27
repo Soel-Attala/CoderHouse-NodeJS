@@ -23,7 +23,7 @@ class Usuario {
     }
 
     getBookNames(libros) {
-        return `Los nombres de los libros son: ${libros.nombre}`
+         for (let i = 0; i < 6; i++);
     }
 
 }
