@@ -19,21 +19,31 @@ class Usuario {
     }
     
     addBook(nombre, autor) { 
-        this.libros.push(nombre,autor)
+        const libro = {
+            nombre: nombre,
+            autor: autor
+        }
+        this.libros.push(libro)
     }
 
-    getBookNames(libros) {
-         for (let i = 0; i < 6; i++);
+    getBookNames() {
+        const book =[]
+            this.libros.map((libro) => {
+            book.push(libro.nombre)
+        })
+        return book
     }
-
 }
+
+
 
 
 let persona1 = {
     nombre: "Soel",
     apellido: "Attala",
-    libros: [{
-        nombre: "Ergagon",
+    libros: [
+    {
+        nombre: "Eragon",
         autor: "Cristopher Paolini",
     },
     ],
@@ -51,14 +61,7 @@ console.log(persona.mascotas)
 
 console.log(persona.countMascotas())
 
-persona.addBook({nombre:"Las Cronicas de Narnia", autor: "CS Lewis"})
+persona.addBook("Las Cronicas de Narnia","CS Lewis")
 console.log(persona.libros)
 
-
-console.log(persona.getBookNames)
-
-
-
-
-
-
+console.log(persona.getBookNames())
