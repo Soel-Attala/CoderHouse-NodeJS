@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Manejo de Archivos", "Manejo de Archivos\Manejo de Archivos.njsproj", "{D64C9C4E-F76A-4ADB-A06F-AD20F1EC2BFE}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Desafio-2-Manejo-De-Archivos", "Desafio-2-Manejo-De-Archivos\Desafio-2-Manejo-De-Archivos.njsproj", "{6CCBCB10-72C9-4ADE-A803-24B337EB7B42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D64C9C4E-F76A-4ADB-A06F-AD20F1EC2BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D64C9C4E-F76A-4ADB-A06F-AD20F1EC2BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D64C9C4E-F76A-4ADB-A06F-AD20F1EC2BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D64C9C4E-F76A-4ADB-A06F-AD20F1EC2BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CCBCB10-72C9-4ADE-A803-24B337EB7B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCBCB10-72C9-4ADE-A803-24B337EB7B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCBCB10-72C9-4ADE-A803-24B337EB7B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCBCB10-72C9-4ADE-A803-24B337EB7B42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9EB5175F-6CF6-43BD-A4CD-2962DC849689}
+		SolutionGuid = {F003C60B-5B85-4AE0-9AF4-6EF0F2040FEC}
 	EndGlobalSection
 EndGlobal
