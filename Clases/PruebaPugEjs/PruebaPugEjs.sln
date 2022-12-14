@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "PruebaPugEjs", "PruebaPugEjs\PruebaPugEjs.njsproj", "{EC763C33-9E28-44C3-84BC-BEFD655BA99F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC763C33-9E28-44C3-84BC-BEFD655BA99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC763C33-9E28-44C3-84BC-BEFD655BA99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC763C33-9E28-44C3-84BC-BEFD655BA99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC763C33-9E28-44C3-84BC-BEFD655BA99F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D9A79F5-63D9-4B40-AB60-36DFDF684625}
+	EndGlobalSection
+EndGlobal

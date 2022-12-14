@@ -1,0 +1,40 @@
+<div style="width: 400px;height:400px; margin: 100px; text-align: center; background-color: darkslategrey; border-block:groove; border:groove  ; border-block-color: black">
+    <h3 style="color:aliceblue; padding:20px ">Productos Disponibles</h3>
+    {{#if isStock}}
+    <div class="table-responsive">
+        <table class="table table-dark table-sm">
+            <thead>
+                <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Foto</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each products}}
+                <tr>
+                    <td>{{this.title}}</td>
+                    <td>${{this.price}}</td>
+                    <td>
+                        <img src="{{this.thumbnail}}"
+                             style="width: 30px; height: 30px;" />
+                    </td>
+
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+    {{else}}
+    <div style="background-color: #808080; padding: 5px; margin: 5px; border-radius: 5px; border:groove">
+        <h4>No se encontraron productos</h4>
+    </div>
+    {{/if}}
+
+
+    <a style="border:groove; border-block-color:grey; color:black ;background-color: #0094ff" href="/products/add" class="btn btn-success mb-3">
+        Ver formulario de productos
+    </a>
+
+
+</div>

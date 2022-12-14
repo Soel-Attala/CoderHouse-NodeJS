@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Prueba Handlebars", "Prueba Handlebars\Prueba Handlebars.njsproj", "{DDB45113-5706-4302-AB77-662FF9D80BFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDB45113-5706-4302-AB77-662FF9D80BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB45113-5706-4302-AB77-662FF9D80BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB45113-5706-4302-AB77-662FF9D80BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB45113-5706-4302-AB77-662FF9D80BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35C454DB-DAB5-4445-8711-415B240DC9A0}
+	EndGlobalSection
+EndGlobal

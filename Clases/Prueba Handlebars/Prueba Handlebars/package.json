@@ -1,0 +1,14 @@
+{
+  "name": "prueba-handlebars",
+  "version": "0.0.0",
+  "description": "Prueba Handlebars",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {
+  }
+}
